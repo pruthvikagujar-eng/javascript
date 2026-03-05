@@ -51,7 +51,7 @@
                 a.style.border="2px solid black"
         </script> -->
 
-           //onclick color change using function 
+           <!-- //onclick color change using function 
            <p id="p1">This is javascript</p>
            <button onclick="red()">red</button>
            <button onclick="green()">green</button>
@@ -85,7 +85,24 @@
                 a.style.color="whit";
                 a.style.border="2px solid black";
             }
-           </script>
+           </script> -->
+           //shorten code
+           <p id="p1">This is javascript</p>
+           <button onclick="fun('red');">red</button>
+           <button onclick="fun('green');">green</button>
+           <button onclick="fun('blue');">blue</button>
+
+           <script type="text/javascript">
+            
+                //to select particular element
+                a=document.getElementById('p1');
+                function fun(arg){
+                //css
+                a.style.backgroundColor=arg;
+                a.style.color="white";
+                a.style.border="2px solid black";
+            }
+        </script>
         </body>
     </html>
 </DOCTYPE>
