@@ -35,7 +35,9 @@
                     //css
                     a.style.backgroundColor="red"
             </script> -->
-            <p id="p1">This is javascript</p>
+
+
+            <!-- <p id="p1">This is javascript</p>
             <button oneclick="red();">red</button>
             <button oneclick="green();">green</button>
             <button oneclick="blue();">blue</button>
@@ -47,7 +49,43 @@
                 a.style.backgroundColor="red"
                 a.style.color="white";
                 a.style.border="2px solid black"
-        </script>
+        </script> -->
+
+           //onclick color change using function 
+           <p id="p1">This is javascript</p>
+           <button onclick="red()">red</button>
+           <button onclick="green()">green</button>
+           <button onclick="blue()">blue</button>
+
+           <script type="text/javascript">
+            function red(){
+                //to select particular element
+                a=document.getElementById('p1');
+                console.log(a);
+                //css
+                a.style.backgroundColor='red';
+                a.style.color="whit";
+                a.style.border="2px solid black";
+            }
+            function green(){
+                //to select particular element
+                a=document.getElementById('p1');
+                console.log(a);
+                //css
+                a.style.backgroundColor='green';
+                a.style.color="whit";
+                a.style.border="2px solid black";
+            }
+            function blue(){
+                //to select particular element
+                a=document.getElementById('p1');
+                console.log(a);
+                //css
+                a.style.backgroundColor='blue';
+                a.style.color="whit";
+                a.style.border="2px solid black";
+            }
+           </script>
         </body>
     </html>
 </DOCTYPE>
