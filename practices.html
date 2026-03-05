@@ -86,7 +86,7 @@
                 a.style.border="2px solid black";
             }
            </script> -->
-           //shorten code
+           <!-- //shorten code
            <p id="p1">This is javascript</p>
            <button onclick="fun('red');">red</button>
            <button onclick="fun('green');">green</button>
@@ -102,7 +102,27 @@
                 a.style.color="white";
                 a.style.border="2px solid black";
             }
-        </script>
+        </script> -->
+
+        //counter using function
+        <button onclick="up();">up</button>
+        <button onclick="down();">down</button>
+        <p id="p1">0</p>
+
+        <script type="text/javascript">
+            a=document.getElementById('p1');
+            i=0;
+            function up(){
+                //css
+                a.innerHTML=i;
+                i++;
+            }
+            function down(){
+                //css
+                a.innerHTML=i;
+                i--;
+            }
+            </script>
         </body>
     </html>
 </DOCTYPE>
