@@ -26,7 +26,7 @@
                 console.log('c='+c);
                 document.write('c='+c);
             </script> -->
-            <p id="p1">This is javascript</p>
+            <!-- <p id="p1">This is javascript</p>
             <p id="p2">This is javascript</p>
             <script type="text/javascript">
                     //to select particular element
@@ -34,7 +34,20 @@
                     console.log(a);
                     //css
                     a.style.backgroundColor="red"
-            </script>
+            </script> -->
+            <p id="p1">This is javascript</p>
+            <button oneclick="red();">red</button>
+            <button oneclick="green();">green</button>
+            <button oneclick="blue();">blue</button>
+            <script type="text/javascript">
+                //to select particular element
+                a=document.getElementById('p1');
+                console.log(a);
+                //css
+                a.style.backgroundColor="red"
+                a.style.color="white";
+                a.style.border="2px solid black"
+        </script>
         </body>
     </html>
 </DOCTYPE>
